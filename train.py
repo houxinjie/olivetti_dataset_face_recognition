@@ -5,8 +5,7 @@ from keras.models import Sequential
 from sklearn.datasets import fetch_olivetti_faces
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
-olivetti_faces = fetch_olivetti_faces()
-
+olivetti_faces = fetch_olivetti_faces(data_home=".")
 batch_size = 10
 nb_classes = 40
 
