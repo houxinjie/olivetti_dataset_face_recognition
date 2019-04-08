@@ -60,7 +60,7 @@ def split_data():
 if __name__=='__main__':
     batch_size = 10
     nb_classes = 40
-    epochs = 12
+    epochs = 30
 
     # input image dimensions
     img_rows, img_cols = 57, 47

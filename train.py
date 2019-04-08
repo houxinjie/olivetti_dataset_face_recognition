@@ -19,7 +19,7 @@ nb_pool = 2
 # convolution kernel size
 nb_conv = 3
 
-epochs = 12
+epochs = 100
 
 X_train = np.empty((320, img_rows * img_cols))
 y_train = np.empty(320, dtype=int)
